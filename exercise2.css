@@ -1,0 +1,52 @@
+body {
+color: #4b4648;
+font-family: tahoma, arial, sans-serif;
+font-size: 14px;
+}
+
+.content {
+border: 2px solid #ccc;
+margin: 0 auto;
+padding: 20px;
+width: 260px;
+}
+
+h1 {
+color: #6d9fac;
+font-size: 22px;
+text-align: center;
+}
+
+header {
+  background: #e0e2e6;
+}
+
+aside {
+  width: 120px;
+  float: right;
+  	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#slogan {
+	text-align: center;
+	font-style: italic;
+}
+
+article {
+	width: 120px;
+	float:left;
+}
+
+
+.content:before,
+.content:after {
+  content: "";
+  display: table;
+}
+.content:after {
+  clear: both;
+}
+.content {
+  zoom: 1;
+}
